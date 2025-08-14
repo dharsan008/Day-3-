@@ -1,0 +1,45 @@
+package Day3;
+
+public class switchstatement {
+
+	public static void main(String[] args) {
+		int num=4;
+		switch(num)
+		{
+		case 0:
+		{
+			System.out.println("Rajini");
+		}
+		case 1:
+		{
+			System.out.println("Kamal");
+		}
+		case 2:
+		{
+			System.out.println("Vijay");
+		}
+		case 3:
+		{
+			System.out.println("Ajith");
+		}
+		case 4:
+		{
+			System.out.println("Dhanush");
+		}
+		case 5:
+		{
+			System.out.println("Sk");
+		}
+		case 6:
+		{
+			System.out.println("Kavin");
+		}
+		default :
+		{
+			System.out.println("Aakash");
+		}
+		}
+
+	}
+
+}
