@@ -1,0 +1,38 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class hacker {
+
+	private static final int RED = 0;
+	private static final int BLUE = 0;
+	private static final int GREEN = 0;
+	private static final int Black = 0;
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+        int a=RED;
+        int b=BLUE;
+        int c=GREEN;
+        int d=Black;
+        if(a==RED)
+        {
+            System.out.println("The Chromatic Horizon reveals: It is Dusk");
+        }
+        if(b==BLUE)
+        {
+            System.out.println("The Chromatic Horizon whispers: It is Dawn");
+        }
+        if(c==GREEN)
+        {
+            System.out.println("The Chromatic Riddle unfolds: Invalid Input");
+        }
+        if(d==Black)
+        {
+            System.out.println("The Chromatic Riddle unfolds: Invalid Input");
+        }
+        
+
+	}
+
+}
