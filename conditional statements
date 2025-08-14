@@ -1,0 +1,25 @@
+package Day3;
+
+public class conditionalstatements {
+
+	public static void main(String[] args) {
+		int num= 9;
+		if(num==9)
+		{
+			System.out.println("The number is nine");
+		}
+		if(num>7)
+		{
+			System.out.println("The number is > seven");
+		}
+		if(num>10)
+		{
+			System.out.println("The number is > ten");
+		}
+		else
+		{
+			System.out.println("Nothing");
+		}
+	}
+
+}
